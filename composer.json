@@ -1,0 +1,21 @@
+{
+  "name": "pressbooks/pressbooks-jacobs",
+  "description": "Named after Jane Jacobs.",
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "~1.3"
+  },
+  "require-dev": {
+    "humanmade/coding-standards": "^0.2.1"
+  },
+  "archive": {
+    "exclude": [".github"]
+  },
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Pressbooks (Book Oven Inc.)",
+      "email": "code@pressbooks.com"
+    }
+  ]
+}
