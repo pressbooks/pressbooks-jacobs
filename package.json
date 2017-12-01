@@ -1,7 +1,6 @@
 {
   "name": "@pressbooks/pressbooks-jacobs",
-  "description":
-    "Named after American-Canadian activist, journalist, and author Jane Jacobs, who was responsible for the New Urbanism movement in urban studies. A clean, contemporary theme suitable for non-fiction and academic writing, typeset in Montserrat throughout.",
+  "description": "Named after American-Canadian activist, journalist, and author Jane Jacobs, who was responsible for the New Urbanism movement in urban studies. A clean, contemporary theme suitable for non-fiction and academic writing, typeset in Montserrat throughout.",
   "author": "Pressbooks (Book Oven Inc.)",
   "license": "GPL-2.0+",
   "engines": {
@@ -11,9 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/pressbooks/pressbooks-jacobs.git"
   },
-  "dependencies": {
-    "buckram": "^0.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "stylelint": "^7.12.0",
     "stylelint-config-standard": "^16.0.0"
@@ -26,7 +23,9 @@
       "media-feature-name-no-unknown": [
         true,
         {
-          "ignoreMediaFeatureNames": ["min--moz-device-pixel-ratio"]
+          "ignoreMediaFeatureNames": [
+            "min--moz-device-pixel-ratio"
+          ]
         }
       ],
       "property-no-unknown": [
@@ -49,7 +48,9 @@
       "selector-pseudo-element-no-unknown": [
         true,
         {
-          "ignorePseudoElements": ["footnote-call"]
+          "ignorePseudoElements": [
+            "footnote-call"
+          ]
         }
       ],
       "string-quotes": "single"
