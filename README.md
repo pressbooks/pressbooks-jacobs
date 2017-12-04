@@ -2,13 +2,13 @@
 
 [![Packagist](https://img.shields.io/packagist/l/pressbooks/pressbooks-jacobs.svg)](https://packagist.org/packages/pressbooks/pressbooks-jacobs) [![Packagist](https://img.shields.io/packagist/v/pressbooks/pressbooks-jacobs.svg)](https://packagist.org/packages/pressbooks/pressbooks-jacobs)
 
-Named after Jane Jacobs.
+This theme is named after American-Canadian activist, journalist, and author Jane Jacobs, who is responsible for the New Urbanism movement in urban studies. It is designed for academic writing, particularly textbooks, but is also suitable for fiction. Headings and body type are set in Montserrat.
 
 ## Requirements
 
 * PHP >= 7.0
-* WordPress >= 4.9.0
-* Pressbooks >= 4.4.0
+* WordPress >= 4.9.1
+* Pressbooks >= 4.5.0
 * Pressbooks Book >= 2.0
 
 ## Installation
