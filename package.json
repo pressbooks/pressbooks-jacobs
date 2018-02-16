@@ -2,7 +2,7 @@
   "name": "@pressbooks/pressbooks-jacobs",
   "description": "This theme is named after American-Canadian activist, journalist, and author Jane Jacobs, who is responsible for the New Urbanism movement in urban studies. It is designed for academic writing, particularly textbooks, but is also suitable for fiction. Headings and body type are set in Montserrat.",
   "author": "Pressbooks (Book Oven Inc.)",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "engines": {
     "node": ">= 6.9.4"
   },
@@ -12,48 +12,14 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "stylelint": "^7.12.0",
-    "stylelint-config-standard": "^16.0.0"
+    "pressbooks-build-tools": "^0.11.0"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "npm run -s lint:styles",
+    "lint:styles": "node_modules/stylelint/bin/stylelint.js  \"assets/styles/**/*.scss\" --syntax scss",
+    "test": "npm run -s lint"
+  },
   "stylelint": {
-    "extends": "stylelint-config-standard",
-    "rules": {
-      "indentation": 2,
-      "media-feature-name-no-unknown": [
-        true,
-        {
-          "ignoreMediaFeatureNames": [
-            "min--moz-device-pixel-ratio"
-          ]
-        }
-      ],
-      "property-no-unknown": [
-        true,
-        {
-          "ignoreProperties": [
-            "footnote-style-position",
-            "hyphenate-before",
-            "hyphenate-after",
-            "hyphenate-lines",
-            "margin-inside",
-            "margin-outside",
-            "prince-bookmark-level",
-            "prince-footnote-policy",
-            "prince-image-resolution",
-            "prince-page-group"
-          ]
-        }
-      ],
-      "selector-pseudo-element-no-unknown": [
-        true,
-        {
-          "ignorePseudoElements": [
-            "footnote-call"
-          ]
-        }
-      ],
-      "string-quotes": "single"
-    }
+    "extends": "./node_modules/pressbooks-build-tools/config/stylelint.js"
   }
 }
