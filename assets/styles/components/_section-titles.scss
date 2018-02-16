@@ -6,8 +6,7 @@ $section-title-font-size: (
   epub: large,
   prince: (24 / 9) * 1em,
   web: (24 / 9) * 1em
-)
-  !default;
+) !default;
 $section-title-align: left !default;
 $section-title-margin-bottom: 1em !default;
 $section-subtitle-margin-bottom: 1em !default;
@@ -15,8 +14,7 @@ $section-subtitle-font-size: (
   epub: large,
   prince: (14 / 9) * 1em,
   web: (14 / 9) * 1em
-)
-  !default;
+) !default;
 
 $section-subtitle-font-style: italic !default;
 $section-subtitle-align: left !default;
@@ -32,8 +30,7 @@ $chapter-number-font-size: (
   epub: large,
   prince: (24 / 9) * 1em,
   web: (24 / 9) * 1rem
-)
-  !default;
+) !default;
 $chapter-title-display: inline !default;
 
 // Override variables above this line, using the !default flag to allow further overrides.

@@ -15,6 +15,8 @@
     "pressbooks-build-tools": "^0.11.0"
   },
   "scripts": {
+    "fix": "npm run -s fix:styles",
+    "fix:styles": "node_modules/stylelint/bin/stylelint.js --fix \"assets/styles/**/*.scss\" --syntax scss",
     "lint": "npm run -s lint:styles",
     "lint:styles": "node_modules/stylelint/bin/stylelint.js  \"assets/styles/**/*.scss\" --syntax scss",
     "test": "npm run -s lint"
