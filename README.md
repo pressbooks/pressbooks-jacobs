@@ -7,8 +7,8 @@ This theme is named after American-Canadian activist, journalist, and author Jan
 ## Requirements
 
 * PHP >= 7.0
-* WordPress >= 4.9.1
-* Pressbooks >= 4.5.0
+* WordPress >= 4.9.4
+* Pressbooks >= 5.0.0
 * Pressbooks Book >= 2.0
 
 ## Installation
