@@ -7,9 +7,9 @@ This theme is named after American-Canadian activist, journalist, and author Jan
 ## Requirements
 
 * PHP >= 7.0
-* WordPress >= 4.9.4
-* Pressbooks >= 5.0.0
-* [McLuhan](https://github.com/pressbooks/pressbooks-mcluhan/) >= 2.0
+* WordPress >= 4.9.6
+* Pressbooks >= 5.4.0
+* [McLuhan](https://github.com/pressbooks/pressbooks-mcluhan/) >= 2.4.0
 
 ## Installation
 
