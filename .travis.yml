@@ -25,7 +25,6 @@ before_install:
 - source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION && nvm use $TRAVIS_NODE_VERSION
 install:
 - node -v
-- npm install -g yarn
-- yarn
+- npm install
 script:
-- yarn run test
+- npm run test
