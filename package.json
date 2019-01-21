@@ -12,7 +12,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "pressbooks-build-tools": "^1.2.0"
+    "pressbooks-build-tools": "^1.2.1"
   },
   "scripts": {
     "fix": "npm run -s fix:styles",
