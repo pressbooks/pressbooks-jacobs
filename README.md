@@ -6,10 +6,10 @@ This theme is named after American-Canadian activist, journalist, and author Jan
 
 ## Requirements
 
-* PHP >= 7.0
-* WordPress >= 4.9.6
-* Pressbooks >= 5.4.0
-* [McLuhan](https://github.com/pressbooks/pressbooks-mcluhan/) >= 2.4.0
+* PHP >= 7.1
+* WordPress >= 5.2.4
+* Pressbooks >= 5.9.5
+* [McLuhan](https://github.com/pressbooks/pressbooks-mcluhan/) >= 2.8.12
 
 ## Installation
 
@@ -30,3 +30,10 @@ composer require pressbooks/pressbooks-jacobs
 Install the [GitHub Updater plugin](https://github.com/afragen/github-updater).
 
 Then, from the GitHub Updater interface, navigate to the "Install Theme" tab. Enter [https://github.com/pressbooks/pressbooks-jacobs](https://github.com/pressbooks/pressbooks-jacobs) as the Theme URI, then click "Install Theme". Tagged updates to this theme will then be available as normal WordPress updates.
+
+## Changelog
+
+### 1.2.1
+
+* See: https://github.com/pressbooks/pressbooks-jacobs/releases/tag/1.2.1
+* Full release history available at: https://github.com/pressbooks/pressbooks-jacobs/releases
