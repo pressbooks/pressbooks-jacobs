@@ -1,3 +1,4 @@
+dist: bionic
 sudo: required
 language: php
 addons:
@@ -10,9 +11,9 @@ branches:
   only:
   - dev
 php:
-- 7.1
+- 7.3
 env:
-- TRAVIS_NODE_VERSION="8"
+- TRAVIS_NODE_VERSION="10"
 matrix:
   fast_finish: true
 cache:
@@ -26,5 +27,6 @@ before_install:
 install:
 - node -v
 - npm install
+- npm run install-build-tools
 script:
 - npm run test
