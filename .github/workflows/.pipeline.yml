@@ -1,0 +1,27 @@
+name: Lint Styles
+on:
+  push:
+    branches: [ dev, main ]
+    tags:
+      - '*.*.*'
+  pull_request:
+    branches: [ dev ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ '14' ]
+
+    name: Node ${{ matrix.node }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm install
+      - run: npm run install-build-tools
+      - run: npm test
