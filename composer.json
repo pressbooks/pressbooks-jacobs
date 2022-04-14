@@ -4,10 +4,9 @@
     "This theme is named after American-Canadian activist, journalist, and author Jane Jacobs, who is responsible for the New Urbanism movement in urban studies. It is designed for academic writing, particularly textbooks, but is also suitable for fiction. Headings and body type are set in Montserrat.",
   "type": "wordpress-theme",
   "require": {
-    "composer/installers": "~1.3"
+    "composer/installers": "^2"
   },
   "require-dev": {
-    "humanmade/coding-standards": "^0.2.1"
   },
   "archive": {
     "exclude": [".github"]
