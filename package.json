@@ -21,6 +21,9 @@
     "test": "npm run -s lint"
   },
   "stylelint": {
-    "extends": "./node_modules/pressbooks-build-tools/config/stylelint.js"
+    "extends": "./node_modules/pressbooks-build-tools/config/stylelint.js",
+    "rules": {
+      "no-invalid-position-at-import-rule": null
+    }
   }
 }

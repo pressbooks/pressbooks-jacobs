@@ -27,13 +27,12 @@ $image-alignnone-wrapper-width: (epub: auto, prince: 100%, web: auto) !default;
 $image-aligncenter-caption-text-align: $image-caption-text-align !default;
 $image-alignleft-caption-text-align: $image-caption-text-align !default;
 $image-alignright-caption-text-align: $image-caption-text-align !default;
-
+/* stylelint-disable-next-line */
 $_image-caption-text-align: (
   center: $image-aligncenter-caption-text-align,
   left: $image-alignleft-caption-text-align,
   right: $image-alignright-caption-text-align
 );
-
 $interactive-icon-url: (
   prince: "pressbooks-book/assets/book/images/icon-interactive.svg",
   epub: "pressbooks-book/assets/book/images/icon-interactive.png",
@@ -64,6 +63,7 @@ $interactive-icon-background-size: (
 ) !default;
 $interactive-content-line-height: $body-line-height !default;
 $interactive-content-margin-bottom: (prince: 1.5em, epub: 1em, web: 1em) !default;
+
 // Override variables above this line, using the !default flag to allow further overrides.
 @import 'variables/media';
 
