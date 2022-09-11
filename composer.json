@@ -23,5 +23,10 @@
       "literary",
       "nonfiction",
       "textbook"
-    ]
+    ],
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
 }

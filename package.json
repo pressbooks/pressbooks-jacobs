@@ -4,7 +4,7 @@
   "author": "Pressbooks (Book Oven Inc.)",
   "license": "GPL-3.0-or-later",
   "engines": {
-    "node": ">= 16"
+    "node": ">= 14"
   },
   "repository": {
     "type": "git",
@@ -15,12 +15,15 @@
   "scripts": {
     "install-build-tools": "npm install --no-save pressbooks-build-tools",
     "fix": "npm run -s fix:styles",
-    "fix:styles": "cross-env NODE_ENV=development node_modules/stylelint/bin/stylelint.js --fix \"assets/styles/**/*.scss\" --syntax scss",
+    "fix:styles": "stylelint --fix \"assets/styles/**/*.scss\" scss",
     "lint": "npm run -s lint:styles",
-    "lint:styles": "cross-env NODE_ENV=development node_modules/stylelint/bin/stylelint.js  \"assets/styles/**/*.scss\" --syntax scss",
+    "lint:styles": "stylelint  \"assets/styles/**/*.scss\" scss",
     "test": "npm run -s lint"
   },
   "stylelint": {
-    "extends": "./node_modules/pressbooks-build-tools/config/stylelint.js"
+    "extends": "./node_modules/pressbooks-build-tools/config/stylelint.js",
+    "rules": {
+      "no-invalid-position-at-import-rule": null
+    }
   }
 }
