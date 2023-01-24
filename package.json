@@ -4,16 +4,17 @@
   "author": "Pressbooks (Book Oven Inc.)",
   "license": "GPL-3.0-or-later",
   "engines": {
-    "node": ">= 14"
+    "node": ">= 18"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pressbooks/pressbooks-jacobs.git"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "pressbooks-build-tools": "^4.0.0"
+  },
   "scripts": {
-    "install-build-tools": "npm install --no-save pressbooks-build-tools",
     "fix": "npm run -s fix:styles",
     "fix:styles": "stylelint --fix \"assets/styles/**/*.scss\" scss",
     "lint": "npm run -s lint:styles",
