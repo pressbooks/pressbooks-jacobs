@@ -31,9 +31,6 @@ Install the [GitHub Updater plugin](https://github.com/afragen/github-updater).
 
 Then, from the GitHub Updater interface, navigate to the "Install Theme" tab. Enter [https://github.com/pressbooks/pressbooks-jacobs](https://github.com/pressbooks/pressbooks-jacobs) as the Theme URI, then click "Install Theme". Tagged updates to this theme will then be available as normal WordPress updates.
 
-## Changelog
+### Changelog
 
-### 1.2.1
-
-* See: https://github.com/pressbooks/pressbooks-jacobs/releases/tag/1.2.1
-* Full release history available at: https://github.com/pressbooks/pressbooks-jacobs/releases
+Please see the [CHANGELOG](CHANGELOG.md) file for more information.
